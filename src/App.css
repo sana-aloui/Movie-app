@@ -1,28 +1,27 @@
 body {
 	width: 100%;
-  }
+}
 .movie-app {
 	max-width: 1000px;
 	margin: 0 auto;
 	font-family: sans-serif;
-
 }
 
 .movie-app-header {
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    align-items: center;
-    margin-right: 85px;
-    padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	margin-right: 85px;
+	padding: 20px 100px;
 }
-.movie-search{
+.movie-search {
 	padding: 10px 100px 10px 100px;
-    margin: 15px;
-    border-radius: 10px;
-    align-self: flex-start;
-    background-color: white;
-    border: 1px solid grey
+	margin: 15px;
+	border-radius: 10px;
+	align-self: flex-start;
+	background-color: white;
+	border: 1px solid grey;
 }
 .movie-filter {
 	height: 50px;
@@ -30,9 +29,9 @@ body {
 	flex: 1;
 	justify-content: space-between;
 	padding: 0 10px;
-} 
+}
 
- .movie-filter-text {
+.movie-filter-text {
 	flex: 1;
 	border: 2px solid black;
 }
@@ -50,7 +49,6 @@ body {
 .movie-app-main {
 	margin-top: 20px;
 	padding: 10px;
-    
 }
 
 .movie-list {
@@ -58,27 +56,26 @@ body {
 	flex-wrap: wrap;
 }
 .movie-card,
-.new-movie-card {	
+.new-movie-card {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid rgba(0,0,0,.03);
-	box-shadow: 0 0px 30px 0 rgba(0,0,0,.1);
+	border: 1px solid rgba(0, 0, 0, 0.03);
+	box-shadow: 0 0px 30px 0 rgba(0, 0, 0, 0.1);
 	border-radius: 6px;
 	width: 250px;
 	height: 370px;
 	color: #747474;
-	margin: 10px;	
+	margin: 10px;
 	background-color: white;
 	box-sizing: border-box;
 	justify-content: center;
 	align-items: center;
-		
 }
-.movie-card:hover{
-	box-shadow: 0 0 30px rgba(33,33,33,.2); 
+.movie-card:hover {
+	box-shadow: 0 0 30px rgba(33, 33, 33, 0.2);
 }
-.new-movie-card:hover{
-	box-shadow: 0 0 30px rgba(33,33,33,.2);
+.new-movie-card:hover {
+	box-shadow: 0 0 30px rgba(33, 33, 33, 0.2);
 }
 /* .movie-rating{
   position: absolute;
@@ -88,8 +85,23 @@ body {
   border: 2px solid black;
 } */
 .movie-image {
-    width: 250px;
-    height: 260px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+	width: 250px;
+	height: 260px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.spinner {
+	width: 120px;
+	height: 120px;
+
+	position: fixed;
+
+	margin-left: -4em;
+	
+	
+	top: 50%;
+	left: 50%;
+	margin: -50px 0px 0px -50px;
+	
 }
